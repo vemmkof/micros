@@ -1,0 +1,3 @@
+Message[303] /home/vemm/MPLABXProjects/OsciladorInterno.X/interno.asm 4 : Program word too large.  Truncated to core size. (FFF1)
+Message[302] /home/vemm/MPLABXProjects/OsciladorInterno.X/interno.asm 8 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[303] /home/vemm/MPLABXProjects/OsciladorInterno.X/interno.asm 16 : Program word too large.  Truncated to core size. (FFF1)

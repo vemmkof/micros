@@ -1,0 +1,30 @@
+#INCLUDE "p16f887.inc"
+    UDATA 020
+CONTADOR    RES 1
+    ORG 0    
+    MOVLW .9
+    MOVWF CONTADOR
+CICLO    
+    MOVF CONTADOR, W
+    CALL CUADRADO
+    DECFSZ CONTADOR,F
+    GOTO CICLO
+FIN
+    NOP
+    GOTO FIN
+CUADRADO
+    ADDWF PCL,F
+    RETLW .0
+    RETLW .1
+    RETLW .4
+    RETLW .9
+    RETLW .16
+    RETLW .25
+    RETLW .36
+    RETLW .49
+    RETLW .64
+    RETLW .81
+    RETURN
+    END
+
+

@@ -1,0 +1,19 @@
+    #include "p16f887.inc"
+    ;__CONFIG _CONFIG1, 0X3FF5
+    ;__CONFIG _CONFIG1, 0XFFF2
+    __CONFIG _CONFIG1, 0XFFF1
+    ORG 0
+    BSF STATUS, RP0
+    MOVLW 0FE
+    MOVWF TRISD
+    BCF STATUS, RP0
+CICLO
+    BSF PORTD, 0
+    NOP
+    NOP
+    BCF PORTD, 0
+    GOTO CICLO
+    END
+    
+
+

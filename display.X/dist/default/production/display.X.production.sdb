@@ -1,0 +1,106 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"464 /opt/microchip/xc8/v1.35/sources/common/doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 /opt/microchip/xc8/v1.35/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.35/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /opt/microchip/xc8/v1.35/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"15 /home/vemm/MPLABXProjects/display.X/display1.c
+[v _main main `(i  1 e 2 0 ]
+"42
+[v _confBusLCD confBusLCD `(v  1 e 0 0 ]
+"68
+[v _comando comando `(v  1 e 0 0 ]
+"102
+[v _putch putch `(v  1 e 0 0 ]
+"343 /opt/microchip/xc8/v1.35/include/pic16f887.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S41 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"417
+[u S46 . 1 `S41 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES46  1 e 1 @9 ]
+"1562
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1623
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"3314
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"15 /home/vemm/MPLABXProjects/display.X/display1.c
+[v _main main `(i  1 e 2 0 ]
+{
+"17
+[v main@r_dos r_dos `[15]uc  1 a 15 6 ]
+"16
+[v main@r_uno r_uno `[14]uc  1 a 14 21 ]
+"18
+[v main@n n `i  1 a 2 35 ]
+"15
+[v main@F1713 F1713 `[14]uc  1 s 14 F1713 ]
+"16
+[v main@F1715 F1715 `[15]uc  1 s 15 F1715 ]
+"40
+} 0
+"464 /opt/microchip/xc8/v1.35/sources/common/doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[v printf@f f `*.24DCCuc  1 a 1 wreg ]
+"530
+[v printf@cp cp `*.26DCCuc  1 a 2 4 ]
+"499
+[v printf@c c `c  1 a 1 2 ]
+"466
+[v printf@ap ap `[1]*.1v  1 a 1 1 ]
+"508
+[v printf@flag flag `uc  1 a 1 0 ]
+"464
+[v printf@f f `*.24DCCuc  1 a 1 wreg ]
+"533
+[v printf@f f `*.24DCCuc  1 a 1 3 ]
+"1541
+} 0
+"102 /home/vemm/MPLABXProjects/display.X/display1.c
+[v _putch putch `(v  1 e 0 0 ]
+{
+[v putch@dat dat `uc  1 a 1 wreg ]
+"103
+[v putch@t t `i  1 a 2 5 ]
+[v putch@estado estado `i  1 a 2 2 ]
+"102
+[v putch@dat dat `uc  1 a 1 wreg ]
+"106
+[v putch@dat dat `uc  1 a 1 4 ]
+"136
+} 0
+"42
+[v _confBusLCD confBusLCD `(v  1 e 0 0 ]
+{
+"43
+[v confBusLCD@t t `i  1 a 2 4 ]
+[v confBusLCD@estado estado `i  1 a 2 2 ]
+"66
+} 0
+"68
+[v _comando comando `(v  1 e 0 0 ]
+{
+[v comando@com com `uc  1 a 1 wreg ]
+"69
+[v comando@t t `i  1 a 2 5 ]
+[v comando@estado estado `i  1 a 2 2 ]
+"68
+[v comando@com com `uc  1 a 1 wreg ]
+"72
+[v comando@com com `uc  1 a 1 4 ]
+"100
+} 0

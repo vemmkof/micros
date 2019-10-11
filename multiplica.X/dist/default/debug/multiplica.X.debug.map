@@ -1,0 +1,41 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Aug 27 22:43:57 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000016
+                   .cinit    romdata   0x00000b    program   0x000004
+                   .udata      udata   0x000020       data   0x000003
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000c      
+            13 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      FIN   0x000009    program     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                     LOOP   0x000006    program     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      ANS   0x000022       data     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      MDO   0x000020       data     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      MDR   0x000021       data     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     LOOP   0x000006    program     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      FIN   0x000009    program     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      MDO   0x000020       data     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      MDR   0x000021       data     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+                      ANS   0x000022       data     static /home/vemm/MPLABXProjects/multiplica.X/multiplica1.asm
+
+

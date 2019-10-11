@@ -1,0 +1,39 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep  6 21:47:07 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000028
+                   .cinit    romdata   0x000014    program   0x000004
+                   .udata      udata   0x000020       data   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000015      
+            22 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    CICLO   0x000002    program     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+                 CUADRADO   0x000008    program     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+                      FIN   0x000006    program     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+                 CONTADOR   0x000020       data     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    CICLO   0x000002    program     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+                      FIN   0x000006    program     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+                 CUADRADO   0x000008    program     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+                 CONTADOR   0x000020       data     static /home/vemm/MPLABXProjects/otrociclo.X/ciclo1.asm
+
+

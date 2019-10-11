@@ -1,0 +1,4 @@
+Message[303] /home/vemm/MPLABXProjects/matriz.X/matriz1.asm 2 : Program word too large.  Truncated to core size. (FFF7)
+Message[305] /home/vemm/MPLABXProjects/matriz.X/matriz1.asm 20 : Using default destination of 1 (file).
+Message[302] /home/vemm/MPLABXProjects/matriz.X/matriz1.asm 31 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[303] /home/vemm/MPLABXProjects/matriz.X/matriz1.asm 41 : Program word too large.  Truncated to core size. (FFF7)

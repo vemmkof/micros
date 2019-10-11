@@ -1,0 +1,187 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"62 /opt/microchip/xc8/v1.35/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.35/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /opt/microchip/xc8/v1.35/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"24 /home/vemm/MPLABXProjects/memoriaI2C.X/main.c
+[v _main main `(v  1 e 0 0 ]
+"53
+[v _initI2C initI2C `(v  1 e 0 0 ]
+"66
+[v _waitMSSP waitMSSP `(v  1 e 0 0 ]
+"83
+[v _setACK setACK `(v  1 e 0 0 ]
+"88
+[v _setNACK setNACK `(v  1 e 0 0 ]
+"95
+[v _pageWrite pageWrite `(v  1 e 0 0 ]
+"127
+[v _randomRead randomRead `(v  1 e 0 0 ]
+"175
+[v _initUSART initUSART `(v  1 e 0 0 ]
+"183
+[v _writeUSART writeUSART `(v  1 e 0 0 ]
+"190
+[v _writeStringUSART writeStringUSART `(v  1 e 0 0 ]
+"822 /opt/microchip/xc8/v1.35/include/pic16f887.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"828
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S72 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1041
+[s S81 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S85 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S88 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S91 . 1 `S72 1 . 1 0 `S81 1 . 1 0 `S85 1 . 1 0 `S88 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES91  1 e 1 @24 ]
+"1105
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1999
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"2126
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S116 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2527
+[s S125 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S129 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S132 . 1 `S116 1 . 1 0 `S125 1 . 1 0 `S129 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES132  1 e 1 @152 ]
+"2586
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"3484
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"3486
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"3804
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"3886
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"3942
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"3960
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"4080
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"4082
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"4138
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"24 /home/vemm/MPLABXProjects/memoriaI2C.X/main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"26
+[v main@data data `[20]uc  1 a 20 0 ]
+"27
+[v main@msg msg `[6]uc  1 a 6 20 ]
+"24
+[v main@F1727 F1727 `[20]uc  1 s 20 F1727 ]
+"26
+[v main@F1729 F1729 `[6]uc  1 s 6 F1729 ]
+"49
+} 0
+"190
+[v _writeStringUSART writeStringUSART `(v  1 e 0 0 ]
+{
+[v writeStringUSART@dato dato `*.4uc  1 a 1 wreg ]
+"191
+[v writeStringUSART@c c `uc  1 a 1 4 ]
+"190
+[v writeStringUSART@dato dato `*.4uc  1 a 1 wreg ]
+[v writeStringUSART@tam tam `uc  1 p 1 1 ]
+[v writeStringUSART@dato dato `*.4uc  1 a 1 3 ]
+"194
+} 0
+"127
+[v _randomRead randomRead `(v  1 e 0 0 ]
+{
+[v randomRead@tam tam `uc  1 a 1 wreg ]
+"128
+[v randomRead@i i `uc  1 a 1 3 ]
+"127
+[v randomRead@tam tam `uc  1 a 1 wreg ]
+"129
+[v randomRead@tam tam `uc  1 a 1 2 ]
+"171
+} 0
+"183
+[v _writeUSART writeUSART `(v  1 e 0 0 ]
+{
+[v writeUSART@dato dato `uc  1 a 1 wreg ]
+[v writeUSART@dato dato `uc  1 a 1 wreg ]
+[v writeUSART@dato dato `uc  1 a 1 0 ]
+"188
+} 0
+"88
+[v _setNACK setNACK `(v  1 e 0 0 ]
+{
+"91
+} 0
+"95
+[v _pageWrite pageWrite `(v  1 e 0 0 ]
+{
+[v pageWrite@data data `*.4uc  1 a 1 wreg ]
+"115
+[v pageWrite@i i `uc  1 a 1 3 ]
+"95
+[v pageWrite@data data `*.4uc  1 a 1 wreg ]
+[v pageWrite@tam tam `uc  1 p 1 0 ]
+"98
+[v pageWrite@data data `*.4uc  1 a 1 2 ]
+"125
+} 0
+"66
+[v _waitMSSP waitMSSP `(v  1 e 0 0 ]
+{
+"81
+} 0
+"83
+[v _setACK setACK `(v  1 e 0 0 ]
+{
+"86
+} 0
+"175
+[v _initUSART initUSART `(v  1 e 0 0 ]
+{
+"181
+} 0
+"53
+[v _initI2C initI2C `(v  1 e 0 0 ]
+{
+"64
+} 0

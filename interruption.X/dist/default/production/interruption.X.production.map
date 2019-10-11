@@ -1,0 +1,38 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep 27 03:10:30 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000018
+.config_2007_BUILD/DEFAULT/PRODUCTION/INTER1.       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00000f      
+                            0x002007    0x002007      
+            16 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    CICLO   0x00000e    program     static /home/vemm/MPLABXProjects/interruption.X/inter1.asm
+                   INICIO   0x000006    program     static /home/vemm/MPLABXProjects/interruption.X/inter1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000006    program     static /home/vemm/MPLABXProjects/interruption.X/inter1.asm
+                    CICLO   0x00000e    program     static /home/vemm/MPLABXProjects/interruption.X/inter1.asm
+
+

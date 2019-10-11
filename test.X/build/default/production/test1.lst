@@ -1,0 +1,28 @@
+MPASM 5.77  /HOME/VEMM/MPLABXPROJECTS/TEST.X   8-22-2018  18:02:19         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 
+                      00002     ORG 0
+0000   0000           00003     NOP
+0001   0000           00004     NOP
+0002                  00005 CICLO
+0002   0000           00006     NOP
+0003   2???           00007     GOTO CICLO
+                      00008     END
+MPASM 5.77  /HOME/VEMM/MPLABXPROJECTS/TEST.X   8-22-2018  18:02:19         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+CICLO                             00000002
+__16F887                          00000001
+
+Errors   :     0
+Warnings :     0 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

@@ -1,0 +1,4 @@
+Message[303] /home/vemm/MPLABXProjects/interruption.X/inter1.asm 2 : Program word too large.  Truncated to core size. (FFF7)
+Message[302] /home/vemm/MPLABXProjects/interruption.X/inter1.asm 11 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/vemm/MPLABXProjects/interruption.X/inter1.asm 13 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[303] /home/vemm/MPLABXProjects/interruption.X/inter1.asm 21 : Program word too large.  Truncated to core size. (FFF7)
